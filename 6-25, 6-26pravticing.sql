@@ -5,7 +5,9 @@ SELECT Faculty Name
 
 Q26:
 a:
-
+SELECT CourseID, CourseName
+FROM COURSE
+WHERE COURSE.CourseID = 'ISM'
 
 b:
 SELECT FACULTY.FacultyID, QUALIFIED.FacultyID, 
